@@ -6,7 +6,7 @@ quantized, noisy position encoder.
 
 
 
-Swap SimulatedAxis for a real driver (serial/CAN) by implementing the same
+Swap SimulatedAxis for a real driver by implementing the same
 
 `command_velocity` / `read_encoder_counts` methods.
 

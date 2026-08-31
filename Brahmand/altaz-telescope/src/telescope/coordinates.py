@@ -40,7 +40,7 @@ class Observer:
 
 def julian_date(dt: datetime) -> float:
 
-    """Julian Date for a timezone-aware (or naive-UTC) datetime."""
+    """Julian Date for a timezone-aware datetime."""
 
     if dt.tzinfo is None:
 
